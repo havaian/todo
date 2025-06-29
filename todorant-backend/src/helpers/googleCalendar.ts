@@ -161,7 +161,7 @@ export async function getTodorantCalendar(api: calendar_v3.Calendar) {
       primaryTimezone = calendar.timeZone
     }
     if (
-      calendar.summary.toLowerCase().includes('todorant') ||
+      calendar.summary.toLowerCase().includes('todomaster') ||
       calendar.summary.toLowerCase().includes('тудурант')
     ) {
       return calendar
@@ -170,7 +170,7 @@ export async function getTodorantCalendar(api: calendar_v3.Calendar) {
   return (
     await api.calendars.insert({
       requestBody: {
-        summary: 'Todorant',
+        summary: 'Todomaster',
         timeZone: primaryTimezone,
       },
     })

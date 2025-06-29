@@ -3,7 +3,7 @@
 //  TodorantToday
 //
 //  Created by Nikita Kolmogorov on 2019-10-09.
-//  Copyright © 2019 Todorant. All rights reserved.
+//  Copyright © 2019 Todomaster. All rights reserved.
 //
 
 import SwiftUI
@@ -18,7 +18,7 @@ struct CurrentView: View {
       if !store.authenticated {
         Text("authenticate")
         Button("authenticate.button") {
-          self.extensionContext.open(URL(string: "todorant://")!)
+          self.extensionContext.open(URL(string: "todomaster://")!)
         }
       } else if store.loading {
         CurrentTodoView(extensionContext: extensionContext, isLoading: true)
@@ -172,7 +172,7 @@ struct buttonsRowView: View {
       .modifier(ButtonsRowModifier())
       // Add todo button
       Button(action: {
-        self.extensionContext.open(URL(string: "todorant://create-todo")!)
+        self.extensionContext.open(URL(string: "todomaster://create-todo")!)
       }) {
         AddTodoButtonIcon()
       }

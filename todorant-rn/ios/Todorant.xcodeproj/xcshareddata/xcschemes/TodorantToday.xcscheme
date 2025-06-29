@@ -18,7 +18,7 @@
                BlueprintIdentifier = "BB3A79B32425AF000014DE92"
                BuildableName = "TodorantToday.appex"
                BlueprintName = "TodorantToday"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Todorant.app"
-               BlueprintName = "Todorant"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               BuildableName = "Todomaster.app"
+               BlueprintName = "Todomaster"
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
                BlueprintIdentifier = "BB3A79F52426933F0014DE92"
                BuildableName = "TodorantUITests.xctest"
                BlueprintName = "TodorantUITests"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Todorant.app"
-            BlueprintName = "Todorant"
-            ReferencedContainer = "container:Todorant.xcodeproj">
+            BuildableName = "Todomaster.app"
+            BlueprintName = "Todomaster"
+            ReferencedContainer = "container:Todomaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Todorant.app"
-            BlueprintName = "Todorant"
-            ReferencedContainer = "container:Todorant.xcodeproj">
+            BuildableName = "Todomaster.app"
+            BlueprintName = "Todomaster"
+            ReferencedContainer = "container:Todomaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

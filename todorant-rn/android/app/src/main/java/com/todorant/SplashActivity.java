@@ -1,4 +1,4 @@
-package com.todorant;
+package com.todomaster;
 
 import android.content.Intent;
 import android.os.Bundle;

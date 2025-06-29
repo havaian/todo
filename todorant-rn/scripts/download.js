@@ -8,7 +8,7 @@ const i18nStringsFiles = require('i18n-strings-files')
 ;(async function getTranslations() {
   console.log('==== Getting localizations')
   const translations = (
-    await axios.get('https://localizer.todorant.com/localizations?tag=mobile')
+    await axios.get('https://localizer.todomaster.com/localizations?tag=mobile')
   ).data.filter((l) => {
     return l.tags.indexOf('mobile') > -1
   })
@@ -57,7 +57,7 @@ const i18nStringsFiles = require('i18n-strings-files')
   console.log('==== Saved object to the file')
   console.log('==== Getting iOS permissions')
   const iOSTranslations = (
-    await axios.get('https://localizer.todorant.com/localizations')
+    await axios.get('https://localizer.todomaster.com/localizations')
   ).data.filter((l) => {
     return l.tags.indexOf('ios-permissions') > -1
   })
@@ -96,7 +96,7 @@ const i18nStringsFiles = require('i18n-strings-files')
   console.log('==== Saved iOS permissions')
   console.log('==== Getting iOS metadata')
   const metadataTranslations = (
-    await axios.get('https://localizer.todorant.com/localizations')
+    await axios.get('https://localizer.todomaster.com/localizations')
   ).data.filter((l) => {
     return l.tags.indexOf('metadata') > -1
   })

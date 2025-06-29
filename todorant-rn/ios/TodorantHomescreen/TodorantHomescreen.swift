@@ -3,7 +3,7 @@
 //  TodorantHomescreen
 //
 //  Created by Yakov Karpov on 02.10.2020.
-//  Copyright © 2020 Todorant. All rights reserved.
+//  Copyright © 2020 Todomaster. All rights reserved.
 //
 
 import SwiftUI

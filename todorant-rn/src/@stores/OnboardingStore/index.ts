@@ -544,7 +544,7 @@ export const AllStages = {
   },
   [TutorialStep.ExplainMultiplatform]: async () => {
     const todorantWebsiteButton = new OnboardingButton(
-      () => Linking.openURL('https://todorant.com'),
+      () => Linking.openURL('https://todomaster.com'),
       'website',
       true
     )

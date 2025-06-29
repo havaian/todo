@@ -1,4 +1,4 @@
-package com.todorant;
+package com.todomaster;
 
 import android.app.Application;
 import android.content.Context;
@@ -12,7 +12,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import com.microsoft.codepush.react.CodePush;
 import com.facebook.react.bridge.JSIModulePackage; 
-import com.todorant.ExampleJSIPackage;
+import com.todomaster.ExampleJSIPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 

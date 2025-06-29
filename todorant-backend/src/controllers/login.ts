@@ -106,11 +106,11 @@ export default class LoginController {
       {
         client_id:
           ctx.request.body.client && ctx.request.body.client === 'ios'
-            ? 'com.todorant.app'
-            : 'com.todorant.web',
+            ? 'com.todomaster.app'
+            : 'com.todomaster.web',
         team_id: 'ACWP4F58HZ',
         key_id: 'M3N8Y594JS',
-        redirect_uri: 'https://todorant.com/apple_login_result',
+        redirect_uri: 'https://todomaster.com/apple_login_result',
         scope: 'name email',
       },
       `${__dirname}/../../assets/AppleAuth.p8`
@@ -180,7 +180,7 @@ export default class LoginController {
   async appleFirebase(@Ctx() ctx: Context) {
     const idToken = (await verifyAppleToken(
       ctx.request.body.credential.oauthIdToken,
-      'com.todorant.web'
+      'com.todomaster.web'
     )) as any
 
     const appleSubId = idToken.sub
@@ -239,7 +239,7 @@ export default class LoginController {
         id,
         user.telegramLanguage === 'ru'
           ? 'Кто-то пытается зайти через ваш Телеграм в Тудурант. Не нажимайте "Разрешить", если это не вы!'
-          : 'Somebody wants to login to your account on Todorant. Do no press "Allow" if it wasn\'t you!',
+          : 'Somebody wants to login to your account on Todomaster. Do no press "Allow" if it wasn\'t you!',
         {
           reply_markup: m.inlineKeyboard([
             m.callbackButton(
@@ -299,7 +299,7 @@ export default class LoginController {
     const { id_token, user } = ctx.request.body
     const userArg = user ? `&user=${JSON.stringify(user)}` : ''
     ctx.redirect(
-      `https://todorant.com/#/apple_login_result#?id_token=${id_token}${userArg}`
+      `https://todomaster.com/#/apple_login_result#?id_token=${id_token}${userArg}`
     )
     return 'Success!'
   }

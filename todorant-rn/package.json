@@ -1,5 +1,5 @@
 {
-  "name": "todorant",
+  "name": "todomaster",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,8 @@
     "start": "react-native start",
     "android-shake": "adb shell input text \"RR\"",
     "code-push": "yarn git-pre-code-push && yarn code-push-ios && yarn code-push-android",
-    "code-push-ios": "yarn dlx appcenter-cli codepush patch -a borodutch/Todorant --disabled Production && yarn dlx appcenter-cli codepush release-react -a borodutch/Todorant -d Production -m",
-    "code-push-android": "yarn dlx appcenter-cli codepush patch -a borodutch/Todorant-1 --disabled Production && yarn dlx appcenter-cli codepush release-react -a borodutch/Todorant-1 -d Production -m",
+    "code-push-ios": "yarn dlx appcenter-cli codepush patch -a borodutch/Todomaster --disabled Production && yarn dlx appcenter-cli codepush release-react -a borodutch/Todomaster -d Production -m",
+    "code-push-android": "yarn dlx appcenter-cli codepush patch -a borodutch/Todomaster-1 --disabled Production && yarn dlx appcenter-cli codepush release-react -a borodutch/Todomaster-1 -d Production -m",
     "git-pre-code-push": "yarn dlx versiony-cli src/@utils/version.json --newmajor && git add . && git commit -m 'codepush' && git push",
     "upload-translations": "node scripts/upload.js",
     "download-translations": "node scripts/download.js",
@@ -56,7 +56,7 @@
     "@upacyxou/react-native-draggable-sectionlist": "0.1.6",
     "@upacyxou/react-native-hole-view": "3.0.1",
     "@upacyxou/react-native-month": "^1.3.2",
-    "@upacyxou/react-native-todorant-widget": "^0.3.0-beta.0",
+    "@upacyxou/react-native-todomaster-widget": "^0.3.0-beta.0",
     "axios": "^0.24.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "color-scheme": "^1.0.1",

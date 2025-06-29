@@ -1,6 +1,6 @@
 //
 //  TodoView.swift
-//  Todorant-watchOS Extension
+//  Todomaster-watchOS Extension
 //
 //  Created by Яков Карпов on 16.11.2020.
 //  Copyright © 2020 Facebook. All rights reserved.

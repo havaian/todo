@@ -1,6 +1,6 @@
 //
 //  Store.swift
-//  Todorant
+//  Todomaster
 //
 //  Created by Яков Карпов on 03.11.2020.
 //  Copyright © 2020 Facebook. All rights reserved.
@@ -17,12 +17,12 @@ enum Key: String {
 
 final class UserSession {
   static var accessToken: String? {
-    let keychain = Keychain(service: "todorant", accessGroup: "ACWP4F58HZ.com.todorant.app")
+    let keychain = Keychain(service: "todomaster", accessGroup: "ACWP4F58HZ.com.todomaster.app")
     return try? keychain.getString(Key.accessToken.rawValue)
   }
 
   static var password: String? {
-    let keychain = Keychain(service: "todorant", accessGroup: "ACWP4F58HZ.com.todorant.app")
+    let keychain = Keychain(service: "todomaster", accessGroup: "ACWP4F58HZ.com.todomaster.app")
     return try? keychain.getString(Key.password.rawValue)
   }
 }

@@ -8,8 +8,8 @@ import PushNotificationIOS from '@react-native-community/push-notification-ios'
 
 PushNotification.createChannel(
   {
-    channelId: 'todorant',
-    channelName: 'Todorant-channel',
+    channelId: 'todomaster',
+    channelName: 'Todomaster-channel',
     vibrate: true,
   },
   () => {
@@ -72,7 +72,7 @@ export function scheduleReminders(time: string) {
   }
   // Schedule notifications
   PushNotification.localNotificationSchedule({
-    channelId: 'todorant',
+    channelId: 'todomaster',
     message: translate('planningReminderText'),
     date,
     repeatType: 'day',

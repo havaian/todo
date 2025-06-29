@@ -3,7 +3,7 @@
 //  TodorantToday
 //
 //  Created by Nikita Kolmogorov on 2019-10-09.
-//  Copyright © 2019 Todorant. All rights reserved.
+//  Copyright © 2019 Todomaster. All rights reserved.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ import Alamofire
 enum Endpoint {}
 
 enum TodorantURL {
-  static let base = "https://backend.todorant.com/"
+  static let base = "https://backend.todomaster.com/"
 }
 
 enum TodorantError: Error {

@@ -21,7 +21,7 @@ export async function setupAnalytics() {
   if (!(await Countly.isInitialized())) {
     Countly.enableCrashReporting()
     await Countly.init(
-      'https://analytics.todorant.com',
+      'https://analytics.todomaster.com',
       '95f6d5ac38eb653c69778a309aa53ed709463c70'
     )
     Countly.start()

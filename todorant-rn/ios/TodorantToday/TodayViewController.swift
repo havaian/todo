@@ -3,7 +3,7 @@
 //  TodorantToday
 //
 //  Created by Nikita Kolmogorov on 2019-10-09.
-//  Copyright © 2019 Todorant. All rights reserved.
+//  Copyright © 2019 Todomaster. All rights reserved.
 //
 
 import UIKit

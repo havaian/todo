@@ -1,4 +1,4 @@
-package com.todorant;
+package com.todomaster;
 
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;

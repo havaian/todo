@@ -62,7 +62,7 @@ ios/Pods/
 
 ios/derived
 
-ios/Todorant.app.dSYM.zip
+ios/Todomaster.app.dSYM.zip
 
 .env
 
@@ -70,7 +70,7 @@ android/fastlane/metadata/android/*/images/phoneScreenshots/*.png
 android/fastlane/metadata/android/screenshots.html
 
 ios/fastlane/screenshots/screenshots.html
-ios/Todorant/Info.plist
+ios/Todomaster/Info.plist
 ios/GoogleService-Info.plist
 ios/fastlane/Appfile
 ios/fastlane/Matchfile

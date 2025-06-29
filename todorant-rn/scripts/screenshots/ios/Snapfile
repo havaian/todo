@@ -18,7 +18,7 @@ launch_arguments(["FASTLANE_SNAPSHOT"])
 scheme "TodorantUITests"
 output_directory "./fastlane/screenshots"
 clear_previous_screenshots true
-workspace "./Todorant.xcworkspace"
+workspace "./Todomaster.xcworkspace"
 ios_version "13.3"
 launch_arguments 
 reinstall_app true

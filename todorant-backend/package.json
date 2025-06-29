@@ -1,9 +1,9 @@
 {
-  "name": "todorant-backend",
+  "name": "todomaster-backend",
   "version": "1.0.0",
-  "description": "Todorant backend",
+  "description": "Todomaster backend",
   "main": "dist/server.js",
-  "repository": "https://github.com/backmeupplz/todorant-backend",
+  "repository": "https://github.com/backmeupplz/todomaster-backend",
   "author": "backmeupplz <backmeupplz@gmail.com>",
   "license": "MPL-2.0",
   "private": true,

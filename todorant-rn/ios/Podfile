@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 inhibit_all_warnings!
 
-target 'Todorant' do
+target 'Todomaster' do
   # React native
   config = use_native_modules!
   use_react_native!(
@@ -48,7 +48,7 @@ target 'TodorantIntents' do
   pod 'SwiftKeychainWrapper'
 end
 
-target 'Todorant-watchOS Extension' do
+target 'Todomaster-watchOS Extension' do
   platform :watchos, '7.0'
   pod 'Alamofire', '~> 5.0'
   pod 'KeychainAccess'

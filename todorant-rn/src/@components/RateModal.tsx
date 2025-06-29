@@ -19,7 +19,7 @@ export const RateModal = memo(() => {
             commentPlaceholderText={translate('rateCommentPlaceholder')}
             emptyCommentErrorMessage={translate('rateCommentEmptyError')}
             iTunesStoreUrl="itms-apps://itunes.apple.com/app/1482078243"
-            playStoreUrl="market://details?id=com.todorant"
+            playStoreUrl="market://details?id=com.todomaster"
             isModalOpen={sharedSessionStore.needsToRequestRate}
             storeRedirectThreshold={4}
             modalTitle={translate('rateTitle')}
@@ -79,7 +79,7 @@ export const RateModal = memo(() => {
                       onPress: () => {
                         Linking.openURL(
                           Platform.OS === 'android'
-                            ? 'market://details?id=com.todorant'
+                            ? 'market://details?id=com.todomaster'
                             : 'itms-apps://itunes.apple.com/app/1482078243'
                         )
                         sharedSessionStore.askedToRate = true

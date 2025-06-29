@@ -4,9 +4,9 @@ export function sendLogin(ctx: Context) {
   return ctx.reply(
     ctx.dbuser && ctx.i18n
       ? ctx.i18n.t('login')
-      : `Please, login to todorant.com with the button below first and then come back.
+      : `Please, login to todomaster.com with the button below first and then come back.
 
-Пожалуйста, зайдите на todorant.com при помощи кнопки ниже, а потом возвращайтесь.`,
+Пожалуйста, зайдите на todomaster.com при помощи кнопки ниже, а потом возвращайтесь.`,
     {
       reply_markup: Markup.inlineKeyboard(loginKeyboard()),
     }
@@ -16,12 +16,12 @@ export function sendLogin(ctx: Context) {
 function loginKeyboard(): any {
   return [
     {
-      text: 'Todorant login',
-      url: process.env.DEBUG ? 'https://todorant.com' : undefined,
+      text: 'Todomaster login',
+      url: process.env.DEBUG ? 'https://todomaster.com' : undefined,
       login_url: process.env.DEBUG
         ? undefined
         : {
-            url: 'https://todorant.com',
+            url: 'https://todomaster.com',
           },
     },
   ]

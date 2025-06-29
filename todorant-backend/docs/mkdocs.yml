@@ -1,5 +1,5 @@
-site_name: Todorant Backend Docs
-site_url: https://backend.todorant.com/docs
+site_name: Todomaster Backend Docs
+site_url: https://backend.todomaster.com/docs
 
 theme:
   name: material

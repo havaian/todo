@@ -8,7 +8,7 @@ const jsyaml = require('js-yaml')
 ;(async function getTranslations() {
   console.log('==== Getting localizations')
   const translations = (
-    await axios.get('https://localizer.todorant.com/localizations?tag=telegram')
+    await axios.get('https://localizer.todomaster.com/localizations?tag=telegram')
   ).data.filter((l) => {
     return l.tags.indexOf('telegram') > -1
   })
@@ -53,7 +53,7 @@ const jsyaml = require('js-yaml')
 
   console.log('==== Working on errors')
   const errorTranslations = (
-    await axios.get('https://localizer.todorant.com/localizations?tag=telegram')
+    await axios.get('https://localizer.todomaster.com/localizations?tag=telegram')
   ).data.filter((l) => {
     return l.tags.indexOf('errors') > -1
   })

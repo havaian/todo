@@ -30,15 +30,15 @@ export async function setupLinking() {
 
 function handleUrl(url: string) {
   const params = QueryString.parseUrl(url)
-  if (params.url === 'todorant://create-todo' && params.query.articleBody) {
+  if (params.url === 'todomaster://create-todo' && params.query.articleBody) {
     addTodo(params.query.articleBody as string)
-  } else if (params.url === 'todorant://create-todo') {
+  } else if (params.url === 'todomaster://create-todo') {
     navigate('AddTodo')
-  } else if (params.url === 'todorant://search' && params.query.query) {
+  } else if (params.url === 'todomaster://search' && params.query.query) {
     navigate('BottomPlanning')
     sharedAppStateStore.searchEnabled = true
     sharedAppStateStore.searchQuery = [params.query.query as string]
-  } else if (params.url.match(/https:\/\/todorant.com\/invite\/*/g)) {
+  } else if (params.url.match(/https:\/\/todomaster.com\/invite\/*/g)) {
     alertConfirm(
       translate('delegate.inviteConfirm'),
       translate('ok'),

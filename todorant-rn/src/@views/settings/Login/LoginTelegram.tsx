@@ -11,7 +11,7 @@ import { observer } from 'mobx-react'
 import { sharedColors } from '@utils/sharedColors'
 import React from 'react'
 
-const base = __DEV__ ? 'http://localhost:8080' : 'https://todorant.com'
+const base = __DEV__ ? 'http://localhost:8080' : 'https://todomaster.com'
 
 @observer
 class LoginTelegramContent extends Component<{

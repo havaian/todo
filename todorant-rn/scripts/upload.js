@@ -130,7 +130,7 @@ for (const language of languages) {
   console.log(JSON.stringify(result, undefined, 2))
   try {
     // await axios.post(`http://localhost:1337/localizations`, {
-    await axios.post(`https://localizer.todorant.com/localizations`, {
+    await axios.post(`https://localizer.todomaster.com/localizations`, {
       localizations: result,
       password: process.env.PASSWORD,
       username: 'borodutch',
@@ -139,7 +139,7 @@ for (const language of languages) {
     console.error(`==== Body posted!`)
     console.log('==== Posting ios strings body:')
     console.log(JSON.stringify(reversedIosStrings, undefined, 2))
-    await axios.post(`https://localizer.todorant.com/localizations`, {
+    await axios.post(`https://localizer.todomaster.com/localizations`, {
       localizations: reversedIosStrings,
       password: process.env.PASSWORD,
       username: 'borodutch',
@@ -148,7 +148,7 @@ for (const language of languages) {
     console.error(`==== iOS strings body posted!`)
     console.log('==== Posting ios metadata body:')
     console.log(JSON.stringify(iosMetadata, undefined, 2))
-    await axios.post(`https://localizer.todorant.com/localizations`, {
+    await axios.post(`https://localizer.todomaster.com/localizations`, {
       localizations: iosMetadata,
       password: process.env.PASSWORD,
       username: 'borodutch',

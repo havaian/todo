@@ -32,7 +32,7 @@ export async function report(err: Error, extra?: string) {
     'Old API version',
   ]
   try {
-    const text = `Todorant Error:\n${err.message || JSON.stringify(err)}${
+    const text = `Todomaster Error:\n${err.message || JSON.stringify(err)}${
       err.stack ? `\n\n${err.stack}` : ''
     }${extra ? `\n\n${extra}` : ''}`
     for (const errorText of dismissableErrors) {

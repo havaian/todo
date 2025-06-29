@@ -13,11 +13,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.todorant.app</string>
+	<string>com.todomaster.app</string>
 	<key>PROJECT_ID</key>
-	<string>todorant-e99c2</string>
+	<string>todomaster-e99c2</string>
 	<key>STORAGE_BUCKET</key>
-	<string>todorant-e99c2.appspot.com</string>
+	<string>todomaster-e99c2.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>

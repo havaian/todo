@@ -147,7 +147,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.todorant"
+        applicationId "com.todomaster"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 173

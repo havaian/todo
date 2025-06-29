@@ -12,7 +12,7 @@ import MobileCoreServices
 import Photos
 
 class ShareViewController: SLComposeServiceViewController {
-  let hostAppBundleIdentifier = "com.todorant.app"
+  let hostAppBundleIdentifier = "com.todomaster.app"
   let sharedKey = "ShareKey"
   var sharedMedia: [SharedMediaFile] = []
   var sharedText: [String] = []

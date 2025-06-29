@@ -23,7 +23,7 @@ export class PrivacyPolicy extends Component {
           onLoadEnd={() => {
             this.loading = false
           }}
-          source={{ uri: 'https://todorant.com/privacy' }}
+          source={{ uri: 'https://todomaster.com/privacy' }}
           style={{ flex: 1, backgroundColor: sharedColors.backgroundColor }}
         />
       </View>

@@ -83,7 +83,7 @@ Body Parameters
 
 | Field | Type   | Required | Description               |
 | ----- | ------ | -------- | ------------------------- |
-| token | string | True     | Access code from Todorant |
+| token | string | True     | Access code from Todomaster |
 
 `Return:` [User](/models/user)
 

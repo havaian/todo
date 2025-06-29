@@ -98,8 +98,8 @@ class LoginVM {
     const state = uuid()
 
     appleAuthAndroid.configure({
-      clientId: 'com.todorant.web',
-      redirectUri: 'https://backend.todorant.com/apple',
+      clientId: 'com.todomaster.web',
+      redirectUri: 'https://backend.todomaster.com/apple',
       responseType: appleAuthAndroid.ResponseType.ALL,
       scope: appleAuthAndroid.Scope.ALL,
       nonce: rawNonce,

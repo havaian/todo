@@ -1,6 +1,6 @@
 //
 //  WidgetManager.swift
-//  Todorant
+//  Todomaster
 //
 //  Created by Nikita Kolmogorov on 2020-10-05.
 //  Copyright © 2020 Facebook. All rights reserved.

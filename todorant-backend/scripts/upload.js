@@ -48,13 +48,13 @@ for (const key in errors) {
   console.log(JSON.stringify(result, undefined, 2))
   console.log(JSON.stringify(errorsResult, undefined, 2))
   try {
-    await axios.post(`https://localizer.todorant.com/localizations`, {
+    await axios.post(`https://localizer.todomaster.com/localizations`, {
       localizations: result,
       password: process.env.PASSWORD,
       username: 'borodutch',
       tags: ['telegram'],
     })
-    await axios.post(`https://localizer.todorant.com/localizations`, {
+    await axios.post(`https://localizer.todomaster.com/localizations`, {
       localizations: errorsResult,
       password: process.env.PASSWORD,
       username: 'borodutch',

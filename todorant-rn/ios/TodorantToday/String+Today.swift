@@ -1,9 +1,9 @@
 //
 //  String+Today.swift
-//  Todorant
+//  Todomaster
 //
 //  Created by Dmitriy Karachentsov on 20/10/19.
-//  Copyright © 2019 Todorant. All rights reserved.
+//  Copyright © 2019 Todomaster. All rights reserved.
 //
 
 import Foundation

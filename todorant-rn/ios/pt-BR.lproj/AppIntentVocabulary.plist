@@ -9,11 +9,11 @@
 			<string>INAddTasksIntent</string>
 			<key>IntentExamples</key>
 			<array>
-				<string>Acrescentar uma tarefa para escrever o discurso presidencial com Todorant</string>
-				<string>Lembre-me de assar o bolo em Todorant</string>
-				<string>Adicionar uma tarefa para passear o cão em Todorant</string>
-				<string>Acrescentar a compra de leite à Todorant</string>
-				<string>Adicionar tarefa em Todorant</string>
+				<string>Acrescentar uma tarefa para escrever o discurso presidencial com Todomaster</string>
+				<string>Lembre-me de assar o bolo em Todomaster</string>
+				<string>Adicionar uma tarefa para passear o cão em Todomaster</string>
+				<string>Acrescentar a compra de leite à Todomaster</string>
+				<string>Adicionar tarefa em Todomaster</string>
 			</array>
 		</dict>
 	</array>

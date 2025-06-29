@@ -1,25 +1,25 @@
 {
   "images" : [
     {
-      "filename" : "todorant-32.png",
+      "filename" : "todomaster-32.png",
       "idiom" : "watch",
       "scale" : "2x",
       "screen-width" : "<=145"
     },
     {
-      "filename" : "todorant-36.png",
+      "filename" : "todomaster-36.png",
       "idiom" : "watch",
       "scale" : "2x",
       "screen-width" : ">161"
     },
     {
-      "filename" : "todorant-37.png",
+      "filename" : "todomaster-37.png",
       "idiom" : "watch",
       "scale" : "2x",
       "screen-width" : ">145"
     },
     {
-      "filename" : "todorant-40.png",
+      "filename" : "todomaster-40.png",
       "idiom" : "watch",
       "scale" : "2x",
       "screen-width" : ">183"

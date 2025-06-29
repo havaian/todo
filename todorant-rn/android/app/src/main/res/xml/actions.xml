@@ -2,15 +2,15 @@
 <!-- This is a sample actions.xml -->
 <actions>
     <action intentName="actions.intent.CREATE_DIGITAL_DOCUMENT">
-        <fulfillment urlTemplate="todorant://create-todo{?articleBody}">
+        <fulfillment urlTemplate="todomaster://create-todo{?articleBody}">
             <parameter-mapping urlParameter="articleBody" intentParameter="digitalDocument.articleBody" required="true" />
         </fulfillment>
-        <fulfillment urlTemplate="todorant://emptydeeplink" />
+        <fulfillment urlTemplate="todomaster://emptydeeplink" />
     </action>
     <action intentName="actions.intent.GET_THING">
-        <fulfillment urlTemplate="todorant://search{?query}">
+        <fulfillment urlTemplate="todomaster://search{?query}">
             <parameter-mapping intentParameter="thing.name" urlParameter="query" required="true" />
         </fulfillment>
-        <fulfillment urlTemplate="todorant://emptydeeplink" />
+        <fulfillment urlTemplate="todomaster://emptydeeplink" />
     </action>
 </actions>

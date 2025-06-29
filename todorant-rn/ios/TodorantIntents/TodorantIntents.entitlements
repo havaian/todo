@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.todorant.app</string>
+		<string>$(AppIdentifierPrefix)com.todomaster.app</string>
 	</array>
 </dict>
 </plist>

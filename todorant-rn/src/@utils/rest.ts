@@ -4,7 +4,7 @@ import { User } from '@models/User'
 import { sharedSessionStore } from '@stores/SessionStore'
 import axios, { AxiosResponse } from 'axios'
 
-const base = __DEV__ ? 'http://localhost:1337' : 'https://backend.todorant.com'
+const base = __DEV__ ? 'http://localhost:1337' : 'https://backend.todomaster.com'
 
 const extraParams = () =>
   Platform.OS === 'ios'

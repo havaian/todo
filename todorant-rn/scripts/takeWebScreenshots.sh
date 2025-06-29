@@ -1,7 +1,7 @@
 #!//bin/bash
 
 # Copy screenshot files
-cp scripts/screenshots/android/AppTest.java android/app/src/androidTest/java/com/todorant/AppTest.java
+cp scripts/screenshots/android/AppTest.java android/app/src/androidTest/java/com/todomaster/AppTest.java
 cp scripts/screenshots/android/Fastfile android/fastlane/Fastfile
 
 cp scripts/screenshots/ios/Snapfile ios/fastlane/Snapfile
@@ -35,7 +35,7 @@ for i in $(find android/fastlane/metadata/android -name *.png | grep -v "backgro
   width=`identify -format %w $destination`
   convert $destination -crop "$width"x"$width"+0+0 $destination
 done
-mv scripts/screenshots/tmp/ ../todorant-frontend/public/img/screenshots/android
+mv scripts/screenshots/tmp/ ../todomaster-frontend/public/img/screenshots/android
 
 # Crop and move screenshots for ios
 mkdir scripts/screenshots/tmp
@@ -53,7 +53,7 @@ for i in $(find ios/fastlane/screenshots -name "*.png" | grep -v "background"); 
   width=`identify -format %w $destination`
   convert $destination -crop "$width"x"$width"+0+0 $destination
 done
-mv scripts/screenshots/tmp/ ../todorant-frontend/public/img/screenshots/ios
+mv scripts/screenshots/tmp/ ../todomaster-frontend/public/img/screenshots/ios
 
 # Reset
 git reset --hard

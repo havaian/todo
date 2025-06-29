@@ -1,6 +1,6 @@
 import { NativeModules, Platform } from 'react-native'
 import { updateBadgeNumber } from '@utils/notifications'
-import TodorantWidget from '@upacyxou/react-native-todorant-widget'
+import TodorantWidget from '@upacyxou/react-native-todomaster-widget'
 
 const WidgetManager = NativeModules.WidgetManager
 const WatchUpdateManager = NativeModules.WatchUpdateManager

@@ -1,6 +1,6 @@
 //
 //  GraphicRectangularComplicationView.swift
-//  Todorant-watchOS Extension
+//  Todomaster-watchOS Extension
 //
 //  Created by Яков Карпов on 19.01.2021.
 //  Copyright © 2021 Facebook. All rights reserved.

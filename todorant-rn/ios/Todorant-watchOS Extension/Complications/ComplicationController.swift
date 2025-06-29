@@ -1,6 +1,6 @@
 //
 //  ComplicationController.swift
-//  Todorant-watchOS Extension
+//  Todomaster-watchOS Extension
 //
 //  Created by Яков Карпов on 28.10.2020.
 //  Copyright © 2020 Facebook. All rights reserved.
@@ -18,7 +18,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     let descriptors = [
       CLKComplicationDescriptor(
         identifier: "complication",
-        displayName: "Todorant",
+        displayName: "Todomaster",
         supportedFamilies: [
           CLKComplicationFamily.circularSmall,
           CLKComplicationFamily.graphicCircular,

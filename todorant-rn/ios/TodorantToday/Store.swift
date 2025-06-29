@@ -3,7 +3,7 @@
 //  TodorantToday
 //
 //  Created by Nikita Kolmogorov on 2019-10-09.
-//  Copyright © 2019 Todorant. All rights reserved.
+//  Copyright © 2019 Todomaster. All rights reserved.
 //
 
 import Foundation
@@ -18,12 +18,12 @@ enum Key: String {
 final class UserSession {
   
   static var accessToken: String? {
-    return KeychainWrapper(serviceName: "todorant", accessGroup: "ACWP4F58HZ.com.todorant.app")
+    return KeychainWrapper(serviceName: "todomaster", accessGroup: "ACWP4F58HZ.com.todomaster.app")
           .string(forKey: Key.accessToken.rawValue)
   }
   
   static var password: String? {
-    return KeychainWrapper(serviceName: "todorant", accessGroup: "ACWP4F58HZ.com.todorant.app")
+    return KeychainWrapper(serviceName: "todomaster", accessGroup: "ACWP4F58HZ.com.todomaster.app")
           .string(forKey: Key.password.rawValue)
   }
 }

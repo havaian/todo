@@ -1,6 +1,6 @@
 import { NativeModules, Platform } from 'react-native'
 import SharedPreferences from 'react-native-shared-preferences'
-import TodorantWidget from '@upacyxou/react-native-todorant-widget'
+import TodorantWidget from '@upacyxou/react-native-todomaster-widget'
 
 const KeychainManager = NativeModules.KeychainManager
 const WidgetManager = NativeModules.WidgetManager

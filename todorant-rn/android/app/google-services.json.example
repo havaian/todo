@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "your-app-id",
         "android_client_info": {
-          "package_name": "com.todorant"
+          "package_name": "com.todomaster"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "your-client-id",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.todorant",
+            "package_name": "com.todomaster",
             "certificate_hash": "your-hash"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "your-client-id",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.todorant",
+            "package_name": "com.todomaster",
             "certificate_hash": "your-hash"
           }
         },
@@ -34,7 +34,7 @@
           "client_id": "your-cliet-id",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.todorant",
+            "package_name": "com.todomaster",
             "certificate_hash": "your-hash"
           }
         },
@@ -59,7 +59,7 @@
               "client_id": "your-client-id",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.todorant.app",
+                "bundle_id": "com.todomaster.app",
                 "app_store_id": "your-store-id"
               }
             }

@@ -1,6 +1,6 @@
 //
 //  TokenReceiver.swift
-//  Todorant-watchOS Extension
+//  Todomaster-watchOS Extension
 //
 //  Created by Яков Карпов on 09.11.2020.
 //  Copyright © 2020 Facebook. All rights reserved.
@@ -26,7 +26,7 @@ class TokenReceiver: NSObject, WCSessionDelegate {
   
   func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
       DispatchQueue.main.async {
-        let keychain = Keychain(service: "todorant", accessGroup: "ACWP4F58HZ.com.todorant.app")
+        let keychain = Keychain(service: "todomaster", accessGroup: "ACWP4F58HZ.com.todomaster.app")
         if let accessToken = message["accessToken"] as? String {
           if (accessToken == "delete") {
             keychain["accessToken"] = nil

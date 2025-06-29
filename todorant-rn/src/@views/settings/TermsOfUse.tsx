@@ -23,7 +23,7 @@ export class TermsOfUse extends Component {
           onLoadEnd={() => {
             this.loading = false
           }}
-          source={{ uri: 'https://todorant.com/terms' }}
+          source={{ uri: 'https://todomaster.com/terms' }}
           style={{ flex: 1, backgroundColor: sharedColors.backgroundColor }}
         />
       </View>

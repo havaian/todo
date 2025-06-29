@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Todorant-tvOS.app"
-               BlueprintName = "Todorant-tvOS"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               BuildableName = "Todomaster-tvOS.app"
+               BlueprintName = "Todomaster-tvOS"
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Todorant-tvOSTests.xctest"
-               BlueprintName = "Todorant-tvOSTests"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               BuildableName = "Todomaster-tvOSTests.xctest"
+               BlueprintName = "Todomaster-tvOSTests"
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -59,9 +59,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Todorant-tvOS.app"
-            BlueprintName = "Todorant-tvOS"
-            ReferencedContainer = "container:Todorant.xcodeproj">
+            BuildableName = "Todomaster-tvOS.app"
+            BlueprintName = "Todomaster-tvOS"
+            ReferencedContainer = "container:Todomaster.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -70,9 +70,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Todorant-tvOSTests.xctest"
-               BlueprintName = "Todorant-tvOSTests"
-               ReferencedContainer = "container:Todorant.xcodeproj">
+               BuildableName = "Todomaster-tvOSTests.xctest"
+               BlueprintName = "Todomaster-tvOSTests"
+               ReferencedContainer = "container:Todomaster.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Todorant-tvOS.app"
-            BlueprintName = "Todorant-tvOS"
-            ReferencedContainer = "container:Todorant.xcodeproj">
+            BuildableName = "Todomaster-tvOS.app"
+            BlueprintName = "Todomaster-tvOS"
+            ReferencedContainer = "container:Todomaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -109,9 +109,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Todorant-tvOS.app"
-            BlueprintName = "Todorant-tvOS"
-            ReferencedContainer = "container:Todorant.xcodeproj">
+            BuildableName = "Todomaster-tvOS.app"
+            BlueprintName = "Todomaster-tvOS"
+            ReferencedContainer = "container:Todomaster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

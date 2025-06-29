@@ -1,6 +1,6 @@
 //
 //  SwipeRecognizer.swift
-//  Todorant
+//  Todomaster
 //
 //  Created by Яков Карпов on 30.10.2020.
 //  Copyright © 2020 Facebook. All rights reserved.

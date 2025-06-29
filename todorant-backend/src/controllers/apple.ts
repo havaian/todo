@@ -5,7 +5,7 @@ import { Controller, Ctx, Get } from 'koa-ts-controllers'
 export default class AppleController {
   @Get('/')
   firefoxBug(@Ctx() ctx: Context) {
-    ctx.redirect(`https://todorant.com/apple_firefox_error`)
+    ctx.redirect(`https://todomaster.com/apple_firefox_error`)
     return 'Success!'
   }
 }

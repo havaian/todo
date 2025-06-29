@@ -1,4 +1,4 @@
-# todorant-rn
+# todomaster-rn
 
 ## Project setup
 

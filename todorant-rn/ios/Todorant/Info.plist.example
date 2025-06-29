@@ -27,7 +27,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>todorant</string>
+				<string>todomaster</string>
 				<string>yourkey</string>
 				<string>ShareMedia</string>
 			</array>
@@ -38,10 +38,10 @@
 			<key>CFBundleURLIconFile</key>
 			<string/>
 			<key>CFBundleURLName</key>
-			<string>todorant</string>
+			<string>todomaster</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>todorant</string>
+				<string>todomaster</string>
 			</array>
 		</dict>
 	</array>
@@ -52,7 +52,7 @@
 	<key>FacebookAppID</key>
 	<string>yourid</string>
 	<key>FacebookDisplayName</key>
-	<string>Todorant</string>
+	<string>Todomaster</string>
 	<key>INAlternativeAppNames</key>
 	<array>
 		<dict>
@@ -92,7 +92,7 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Todorant uses camera to scan QR codes</string>
+	<string>Todomaster uses camera to scan QR codes</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string/>
 	<key>NSSiriUsageDescription</key>

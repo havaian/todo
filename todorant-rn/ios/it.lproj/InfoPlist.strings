@@ -1,9 +1,9 @@
-"NSCameraUsageDescription" = "Todorant utilizza la fotocamera per la scansione dei codici QR";
-"CFBundleDisplayName" = "Todorant";
-"APP_NAME_SYNONYM_1" = "Todorant";
+"NSCameraUsageDescription" = "Todomaster utilizza la fotocamera per la scansione dei codici QR";
+"CFBundleDisplayName" = "Todomaster";
+"APP_NAME_SYNONYM_1" = "Todomaster";
 "APP_NAME_SYNONYM_1_PR" = "tu tu rant";
-"APP_NAME_SYNONYM_2" = "Todorant";
+"APP_NAME_SYNONYM_2" = "Todomaster";
 "APP_NAME_SYNONYM_2_PR" = "to do rant";
-"APP_NAME_SYNONYM_3" = "Todorant";
+"APP_NAME_SYNONYM_3" = "Todomaster";
 "APP_NAME_SYNONYM_3_PR" = "ta da rant";
-"NSSiriUsageDescription" = "Permettere a Todorant di aggiungere todos con la voce";
+"NSSiriUsageDescription" = "Permettere a Todomaster di aggiungere todos con la voce";

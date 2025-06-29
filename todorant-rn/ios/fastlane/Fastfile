@@ -34,7 +34,7 @@ platform :ios do
       export_method: "app-store",
 
       export_xcargs: "-allowProvisioningUpdates",
-      scheme: "Todorant",
+      scheme: "Todomaster",
       silent: true
     )
   end

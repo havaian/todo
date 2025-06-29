@@ -91,7 +91,7 @@ export class Integrations extends Component {
     }
     alertMessage(
       'Success!',
-      'If Apple Watch is paired to this device, Todorant app on it should be working now. You might need to restart the Apple Watch Todorant app for this to work well.'
+      'If Apple Watch is paired to this device, Todomaster app on it should be working now. You might need to restart the Apple Watch Todomaster app for this to work well.'
     )
   }
 

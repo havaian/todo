@@ -1,4 +1,4 @@
-package com.todorant;
+package com.todomaster;
 
 import android.os.Bundle;
 
@@ -22,7 +22,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Todorant";
+    return "Todomaster";
   }
 
   @Override

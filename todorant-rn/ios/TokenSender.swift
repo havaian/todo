@@ -1,6 +1,6 @@
 //
 //  TokenSender.swift
-//  Todorant
+//  Todomaster
 //
 //  Created by Яков Карпов on 09.11.2020.
 //  Copyright © 2020 Facebook. All rights reserved.
